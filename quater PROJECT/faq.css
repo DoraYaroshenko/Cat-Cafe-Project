@@ -1,0 +1,50 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(236, 204, 181);
+    color: rgb(167, 93, 48);
+}
+
+.container {
+    max-width: 1140px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Caveat', cursive;
+}
+
+main .container .strip{
+    min-height: 500px;
+}
+main .container .strip img{
+    border: 14px ridge #AF5609;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+main .strip .accordion{
+    min-height: 570px;
+}
+main .strip .accordion .accordion-item{
+    border: 1px solid rgb(236, 204, 181);
+  }
+main .container .strip .accordion .accordion-header .accordion-button{
+    min-height: 100px;
+    background: rgb(66, 24, 8);
+    color:  rgb(236, 204, 181);
+    font-size: 1.5em;
+}
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+    
+  }
+:focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+  }
+  main .container .strip .accordion .accordion-body{
+    background: rgb(167, 93, 48);
+    color:  rgb(236, 204, 181);
+  }
+

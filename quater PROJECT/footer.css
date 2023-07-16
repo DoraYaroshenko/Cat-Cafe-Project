@@ -1,0 +1,24 @@
+footer {
+    background: rgb(66, 24, 8);
+    color: rgb(236, 204, 181);
+    min-height: 80px;
+}
+footer .container .row2 a{
+    padding-right:12px;
+    color: rgb(236, 204, 181);
+    font-size: 1.5em;
+    transition: 500ms;
+    display: inline-block;
+}
+footer .container .row2 a:hover{
+transform: scale(1.25);
+color: rgb(167, 93, 48);;
+}
+@media screen and (max-width:576px){
+    footer .container, footer .container h3{
+        text-align: center!important;
+    }
+    footer .container .row2 a{
+        padding:0 12px;
+    }
+}

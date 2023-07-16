@@ -1,0 +1,29 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(236, 204, 181);
+    color: rgb(167, 93, 48);
+}
+
+.container {
+    max-width: 1140px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Caveat', cursive;
+}
+
+h1{
+    color: rgb(66, 24, 8);
+}
+
+main .container .row{
+    min-height: 300px;
+}
+main .container .row img, iframe{
+    border: 14px ridge #AF5609;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}

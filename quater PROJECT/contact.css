@@ -1,0 +1,43 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(236, 204, 181);
+    color: rgb(167, 93, 48);
+}
+
+.container {
+    max-width: 1140px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-family: 'Caveat', cursive;
+}
+main .container form label{
+    margin: 12px 0;
+    font-size: 1.7em;
+}
+main .container form textarea{
+    min-height: 150px;
+}
+main .container .row img{
+    border: 14px ridge #AF5609;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+main .container .row form input, textarea{
+    border-radius: 5px;
+}
+main .container .row form button{
+    background: rgb(66, 24, 8);
+    transition: 1000ms;
+    color: rgb(236, 204, 181);
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+    box-shadow: 2px 5px 16px 0px #5e370b, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+main .container .row form button:hover{
+    background: rgb(167, 93, 48);
+    transform: scale(1.2)
+}
